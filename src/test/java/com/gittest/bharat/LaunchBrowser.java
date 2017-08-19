@@ -17,6 +17,7 @@ WebDriver dr;
 	   dr.manage().window().maximize();
 	   dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	   dr.get("http://album.alexflueras.ro/galleries/landscapes.html");
+	   System.out.println("browser launched");
 	   
 	}
 
